@@ -1,0 +1,358 @@
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/* navbar-styles */
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 58px;
+}
+
+.navbar .fa-bars {
+    display: none;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 47px;
+    list-style: none;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+
+.navbar ul #home {
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    margin-left: 2px;
+}
+
+.navbar ul #about {
+    margin-right: 18px;
+}
+
+.navbar h1 {
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.banner {
+    display: flex;
+
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.banner-text {
+    max-width: 500px;
+    margin-top: 97px;
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+}
+
+.banner-title #font-style {
+    font-family: ;
+    font-weight: 400;
+
+
+}
+
+.banner-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    margin-top: 28px;
+}
+
+.btn1 {
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    margin-top: 28px;
+    cursor: pointer;
+}
+
+.btn2 {
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    border: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 28px;
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+.banner-image {
+    margin-top: 32px;
+    margin-left: 167px;
+}
+
+
+.card-1 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    padding: 16px 24px;
+    margin-top: -460px;
+    width: 130px;
+    margin-left: 218px;
+}
+
+.card-1 .card-1-title {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+    text-align: left;
+
+}
+
+.card-1 .card-1-text {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    text-align: left;
+}
+
+.card-2 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    position: relative;
+    margin-top: 200px;
+    margin-left: -95px;
+}
+
+.card-2 .card-2-title {
+    color: rgb(250, 250, 249);
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.card-2-text {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.card-2 .ball {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+}
+
+/* main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.habits{
+    margin-top: 160px;
+}
+
+.habits-title{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.habits-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.habits-container{
+    margin-top: 58px;
+    display: flex;
+    gap: 40px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box .box-title{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.box .box-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.habits-container .box img{
+     /* width: 100%; */
+     border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive styles */
+
+@media screen and (max-width:576px) {
+    .navbar {
+        width: 90%;
+    }
+
+    .navbar .fa-bars {
+        display: block;
+        font-size: 18px;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .banner {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .banner-text {
+        width: 100%;
+        margin-top: 51px;
+    }
+
+    .banner-title {
+        color: rgb(255, 255, 255);
+        font-size: 36px;
+        font-weight: 900;
+        width: 285px;
+    }
+
+    .banner-description {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        font-weight: 400;
+        width: 274px;
+        text-align: left;
+    }
+
+     .btn-container{
+        display: flex;
+     }
+
+     .btn1, .btn2{ 
+        padding: 16px 30px 16px 30px;
+        font-size: 14px;
+        display: ;
+    }
+
+    .banner-image {
+        margin-left: 0;
+        margin-top: 48px;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    .card-1 {
+        margin-top: -539px;
+        width: 100px;
+        margin-left: 210px;
+        padding: 10px 16px
+    }
+
+    .card-1 .card-1-title {
+        font-size: 30.24px;
+        font-weight: 900;
+    }
+
+    .card-1 .card-1-text {
+        font-size: 9.83px;
+        font-weight: 400;
+    }
+
+    .card-2 {
+        margin-top: 165px;
+        margin-left: 21px;
+        width: 120px;
+        padding: 10px 16px;
+    }
+
+    .card-2 .card-2-title {
+        font-size: 18.14px;
+        font-weight: 900;
+    }
+
+    .card-2 .card-2-text {
+        font-size: 12.1px;
+        font-weight: 400;
+    }
+
+    .card-2 .ball{
+        height: 30px;
+        width: 30px;
+    }
+
+
+}
