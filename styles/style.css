@@ -190,36 +190,36 @@ body {
 
 /* main styles */
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-.habits{
+.habits {
     margin-top: 160px;
 }
 
-.habits-title{
+.habits-title {
     color: rgb(255, 255, 255);
     font-size: 48px;
     font-weight: 900;
     text-align: center;
 }
 
-.habits-description{
+.habits-description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     text-align: center;
     margin-top: 14px;
 }
 
-.habits-container{
+.habits-container {
     margin-top: 58px;
     display: flex;
     gap: 40px;
 }
 
-.box{
+.box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -227,25 +227,65 @@ main{
     text-align: center;
 }
 
-.box .box-title{
+.box .box-title {
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
     margin-top: 30px;
 }
 
-.box .box-description{
+.box .box-description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     margin-top: 6px;
 }
 
-.habits-container .box img{
-     /* width: 100%; */
-     border-radius: 50%;
+.habits-container .box img {
+    /* width: 100%; */
+    border-radius: 50%;
 }
 
+/* Run an Extra Mile Easily styles */
+
+
+.run {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.run-image {
+    padding: 30px 32px 30px 0px;
+}
+
+.run-image img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.run-title {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.run-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.run-text {
+    padding: 0 165px 0 54px;
+}
+
+.run-text .btn1 {
+    margin-top: 34px;
+}
 
 
 
@@ -296,11 +336,12 @@ main{
         text-align: left;
     }
 
-     .btn-container{
+    .btn-container {
         display: flex;
-     }
+    }
 
-     .btn1, .btn2{ 
+    .btn1,
+    .btn2 {
         padding: 16px 30px 16px 30px;
         font-size: 14px;
         display: ;
@@ -349,10 +390,51 @@ main{
         font-weight: 400;
     }
 
-    .card-2 .ball{
+    .card-2 .ball {
         height: 30px;
         width: 30px;
     }
 
+    /* habits-section */
 
+    main {
+        width: 90%;
+    }
+
+    .habits {
+        margin-top: 280px;
+    }
+
+    .habits-title {
+        font-size: 32px;
+    }
+
+    .habits-container {
+        flex-direction: column;
+    }
+
+    .box .box-description {
+        width: 230px;
+    }
+
+    .run {
+        flex-direction: column;
+    }
+
+    .run-text {
+        padding: 31px 30px 0 30px;
+    }
+
+    .run-title{
+        font-size: 32px;
+    }
+
+    .run-image {
+        padding: 31px 33px 35px 33px;
+    }
+
+    .run-text .btn1{
+        /* padding:  16px 105px 16px 105px; */
+        width: 100%;
+    }
 }
