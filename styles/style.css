@@ -608,9 +608,9 @@ footer {
     }
 
     .card-1 {
-        margin-top: -539px;
+        margin-top: -500px;
         width: 100px;
-        margin-left: 210px;
+        margin-left: 180px;
         padding: 10px 16px
     }
 
@@ -712,16 +712,16 @@ footer {
     }
 
     #text {
-        padding: 12px 0px 12px 10px;
-        font-size: 12px;
+        padding: 12px 0px 12px 4px;
+        font-size: 10px;
     }
 
     .gender {
-        width: 157px;
+        width: 128px;
     }
 
     .select {
-        width: 328px;
+        width: 268px;
     }
 
     .btn3 {
