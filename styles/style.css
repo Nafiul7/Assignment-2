@@ -95,9 +95,10 @@ header {
 }
 
 .banner-title #font-style {
-    font-family: math;
-    font-weight: 900;
-    font-style: italic;
+    font-family: "Playball", cursive;
+    font-size: 90px;
+    font-weight: 400;
+    
 
 
 }
@@ -578,6 +579,10 @@ footer {
         font-weight: 900;
         width: 285px;
     }
+        .banner-title #font-style{
+            font-size: 50px;
+            font-weight: 400;
+        }
 
     .banner-description {
         color: rgba(255, 255, 255, 0.5);
@@ -656,7 +661,7 @@ footer {
     }
 
     .habits {
-        margin-top: 280px;
+        margin-top: 150px;
     }
 
     .habits-title {
