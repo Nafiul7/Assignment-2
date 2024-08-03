@@ -98,7 +98,7 @@ header {
     font-family: "Playball", cursive;
     font-size: 90px;
     font-weight: 400;
-    
+
 
 
 }
@@ -472,6 +472,84 @@ form {
 }
 
 
+/* Extra-section-design */
+
+
+.extra-section {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.extra-section-title {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.extra-section-description {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 14px;
+}
+
+.extra-section-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.extra-card {
+    background: rgb(34, 34, 34);
+    border-radius: 16px;
+    padding: 20px;
+    width: 42%;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.extra-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.extra-card-title {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.date-time {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+}
+
+.extra-description {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+}
+
+.details-button {
+    padding: 13px 30px 13px 30px;
+    border-radius: 8px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border: none;
+    margin-top: 14px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn4{
+    margin-top: 50px;
+}
+
+
+
+
+
 /* Footer-styles */
 
 
@@ -579,10 +657,11 @@ footer {
         font-weight: 900;
         width: 285px;
     }
-        .banner-title #font-style{
-            font-size: 50px;
-            font-weight: 400;
-        }
+
+    .banner-title #font-style {
+        font-size: 50px;
+        font-weight: 400;
+    }
 
     .banner-description {
         color: rgba(255, 255, 255, 0.5);
@@ -752,6 +831,28 @@ footer {
         margin-top: 14px;
         margin-bottom: 70px;
 
+    }
+
+
+    /* extra-section-responsive-design */
+
+
+    .extra-section{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+
+    .extra-section-container{
+        flex-direction: column;
+    }
+
+    .extra-card{
+        width: 90%;
+    }
+
+    .extra-section-title{
+        font-size: 35px;
     }
 
 
